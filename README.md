@@ -8,7 +8,7 @@ This project is based on the [MoeGoe](https://github.com/CjangCjengh/MoeGoe), an
 ```
 git clone https://github.com/kagari-bi/Vits_Webapp.git
 ```
-2.Download the pre-trained model [Baidu Netdisk](https://pan.baidu.com/s/1fl9504KPKlnZFE6Ix8HXjw?pwd=csyc) and unzip it to the models\Umamusume directory.
+2.Download the pre-trained model from [Baidu Netdisk](https://pan.baidu.com/s/1fl9504KPKlnZFE6Ix8HXjw?pwd=csyc) and unzip it to the models\Umamusume directory.
 
 3.Open config_backup.ini, enter your OpenAI account's api_key, Baidu account's appid and key (used to translate Chatgpt's response into Japanese, then use vits for inference), and proxy address, etc. Save and close, then rename it to config.ini.
 
