@@ -122,10 +122,12 @@ async def chat(data: InputData):
     if detect_language(user_question) == "Chinese":
         text_response = assistant_answer
         #把需要保留的特殊称谓放在奇怪的符号里，就不会被翻译掉了（大概）
+        assistant_answer = assistant_answer.replace('米浴', '【ライス】')
         assistant_answer = assistant_answer.replace('哥哥大人', '【お兄さま】')
         assistant_answer = translate_baidu(APPID, key, assistant_answer)
         assistant_answer = assistant_answer.replace('私', 'ライス')
         assistant_answer = assistant_answer.replace('【お兄さま】', 'お兄さま')
+        assistant_answer = assistant_answer.replace('【ライス】', 'ライス')
         audio_response = assistant_answer
     else:
         text_response = assistant_answer
