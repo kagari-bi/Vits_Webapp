@@ -3,8 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-# 忽略所有名为 config.ini 的文件
+# 忽略文件
 config.ini
+uma_1153000.pth
+uma87.json
+config.json
+G_406000.pth
 
 # User-specific files
 *.rsuser
