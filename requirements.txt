@@ -17,3 +17,5 @@ indic_transliteration
 num_thai
 opencc
 audonnx
+fastapi[all]
+requests
